@@ -1,0 +1,126 @@
+*{
+    font-family: Garamound;
+}
+
+/* colors */
+.favBlue{
+    color: rgb(190, 209, 223);
+}
+
+.darkerBlue{
+    color:rgb(89, 107, 141)
+}
+
+.prettyRed{
+    color:rgb(138, 41, 41)
+}
+/* margin around website */
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(241, 235, 227);
+}
+
+.button{
+    background-color: rgb(158, 172, 185);
+    opacity: 0.8;
+    border: none;
+    border-radius: 12px;
+    font-size: 110%;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    /* background-color: #4CAF50; Green */
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: right;
+}
+
+.nav-button{
+    padding: 50px;
+    font-size: large;
+}
+
+.mainIntro{
+    padding: 45px;
+}
+.biocontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.mePhoto {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: auto;
+    border-radius: 12px;
+    
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.subtitle-Project{
+    display:inline-flex;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.item{
+    background-color: rgb(158, 172, 185);
+    border: 30px solid rgb(241, 235, 227) ;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.contact{
+    height: 150px;
+    width: auto;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.item-1, .item-5 {
+    grid-column: 1/2;
+  }
+
+.item-2, .item-6 {
+    grid-column: 2/4;
+}
+
+.item-3, .item-7 {
+    grid-column: 1/3;
+}
+
+.item-4, .item-8 {
+    grid-column: 3/4;
+}
+
+.footnote{
+    display: flex;
+    justify-content: start;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    color:rgb(114, 114, 114);
+    
+}
